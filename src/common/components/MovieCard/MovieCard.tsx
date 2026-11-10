@@ -51,10 +51,10 @@ export const MovieCard = ({id, posterUrl ,title, voteAverage, trigger}: Props) =
 
     
     return (
-        <article>
+        <article className={style.card}>
+            <button onClick={setFavorite} className={style.favorite}><img src={isFavorite ? Favorite : nonFavorite}></img></button>
             <NavLink style={{textDecoration: 'none', color: 'var(--color-text)'}} to={`${path.movie}/${id}`}>
                 <div className={style.PosterBlock} style={{ backgroundImage: `url(${url})` }}>
-                    <button onClick={setFavorite} className={style.favorite}><img src={isFavorite ? Favorite : nonFavorite}></img></button>
                     <Rating rating={voteAverage} positionAbsolute={true}/>
                 </div>
                 <p className={style.title}>{title}</p>

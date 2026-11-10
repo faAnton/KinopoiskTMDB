@@ -1,3 +1,16 @@
+.card{
+    position: relative;
+    transition: 0.2s linear;
+}
+
+.card:hover{
+    .favorite{
+        opacity: 70%;
+    }
+
+    transform: scale(1.05);
+}
+
 .PosterBlock{
     width: 170px;
     height: 200px;
@@ -5,17 +18,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    transition: 0.2s linear;
     position: relative;
-
 }
 
 .PosterBlock:hover {
-    .favorite{
-        opacity: 70%;
-    }
-
-    transform: scale(1.05);
     box-shadow: 3px 6px 24px -9px #000000
 }
 
@@ -35,7 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    z-index: 100;
     border-radius: 50%;
     transition: all 0.2s linear;
     border: none;
