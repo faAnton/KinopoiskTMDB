@@ -1,0 +1,26 @@
+.rating {
+    height: 35px;
+    width: 35px;
+
+    border-radius: 50px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.Green {
+    background-color: #12b942;
+}
+
+.Yellow {
+    background-color: #cacd14;
+}
+
+.Red {
+    background-color: #ea1b1b;
+}

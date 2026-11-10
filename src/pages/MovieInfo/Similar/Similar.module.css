@@ -1,0 +1,12 @@
+.Similar {
+    margin-top: 40px;
+}
+
+.Similar > h3 {
+    font-size: 32px;
+}
+
+.similarWrapper {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+.InfoSection {
+    padding-top: calc(var(--header-height) + 35px);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    flex: 1;
+    padding-bottom: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}

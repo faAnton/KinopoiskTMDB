@@ -1,0 +1,5 @@
+export {CategoryMovies} from './CategoryMovies/CategoryMovies'
+export {Favorites} from './Favorites/Favorites'
+export {FilteredMovies} from './FilteredMovies/FilteredMovies'
+export {Main} from './Main/Main'
+export {Search} from './Search/Search'

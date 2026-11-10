@@ -1,0 +1,64 @@
+
+.Form {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    max-width: 650px;
+}
+
+.Input {
+    flex: 1;
+    padding: 16px 24px;
+    font-size: 1.1rem;
+    border: 2px solid #2a60e4;
+    /* Синяя обводка как на фото */
+    border-radius: 50px;
+    /* Округлые края */
+    outline: none;
+    background-color: #ffffff;
+    color: #333;
+    transition: box-shadow 0.2s;
+}
+
+.Input::placeholder {
+    color: #777;
+}
+
+.Input:focus {
+    box-shadow: 0 0 0 4px rgba(42, 96, 228, 0.3);
+}
+
+.Button {
+    padding: 16px 32px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #2a60e4;
+    /* Синий цвет кнопки */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.Button:hover {
+    background-color: #1e4bbf;
+}
+
+.Button:active {
+    transform: scale(0.97);
+}
+
+.Button:disabled {
+    background-color: none;
+    opacity: 70%;
+
+}
+
+.Button:disabled:hover{
+    background-color: none;
+}
+
+.Button:disabled:active{
+    transform: none;
+}

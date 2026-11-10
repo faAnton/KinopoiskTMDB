@@ -1,0 +1,12 @@
+.Cast {
+    margin-top: 40px;
+}
+
+.Cast > h3 {
+    font-size: 32px;
+}
+
+.castWrapper {
+    display: flex;
+    justify-content: space-between;
+}

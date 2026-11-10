@@ -1,0 +1,83 @@
+.infoBlock {
+    display: flex;
+    gap: 20px
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.infoWrapper > p {
+    max-width: 600px;
+    font-size: 17px
+}
+
+
+.imageBox{
+    border-radius: 45px;
+    overflow: hidden;
+    max-height: 400px;
+    max-width: 300px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+}
+
+.titleWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BackButton{
+    text-decoration: none;
+
+    font-size: 18px;
+    border: 2px solid var(--color-border);
+    border-radius: 40px;
+    padding: 2px 11px 4px 12px;
+    transition: all .2s linear;
+}
+
+.BackButton:hover {
+    background-color: var(--color-surface-hover);
+}
+
+.movieTitle {
+    font-size: 30px;
+}
+
+.data {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.rating {
+    position: relative;
+    max-width: 35px;
+}
+
+
+.genres {
+    display: flex;
+    gap: 15px;
+}
+
+.genre {
+    border-radius: 35px;
+    padding: 1px 10px 5px 10px;
+    background-color: #e2e7ee;
+    text-align: center;
+}
+
+:global([data-theme='dark']) .genre{
+    background-color: #1f2b40;
+}

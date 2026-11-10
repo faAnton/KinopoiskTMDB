@@ -1,0 +1,28 @@
+.SearchSection {
+    margin-top: 64px;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    padding-top: 50px;
+
+    flex: 1;
+}
+
+.Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContentWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.container {
+    padding: 0 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}

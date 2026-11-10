@@ -1,0 +1,54 @@
+.filteredMovies {
+    padding-top: calc(var(--header-height) + 35px);
+    
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 10px;
+    display: flex;
+    gap: 50px;
+}
+
+.filtersColumn {
+    width: 260px;
+    padding: 0 20px 0 20px;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* Расстояние между блоками фильтров */
+}
+
+.sidebarTitle {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+    color: var(--color-text);
+}
+
+
+.resetBtn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #00b386;
+    background-color: transparent;
+    color: #00b386;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+.resetBtn:hover {
+    background-color: #00b386;
+    color: #fff;
+}

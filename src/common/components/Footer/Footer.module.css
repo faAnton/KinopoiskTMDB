@@ -1,0 +1,12 @@
+.footer {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #dcd9d9;
+    color: var(--color-text);
+    display: flex;
+    justify-content: center;
+}
+
+:global([data-theme='dark']) .footer {
+    background-color: var(--header-back-ground);
+}

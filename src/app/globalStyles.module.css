@@ -1,0 +1,45 @@
+:root {
+    --color-bg: #ffffff;
+    --color-border: #e5e7eb;
+    --color-text: #111827;
+    --color-surface: #f3f4f6;
+    --color-surface-hover: #e5e7eb;
+    --color-accent: #6366f1;
+    --header-height: 64px;
+    --header-back-ground: rgb(29 49 91);
+
+}
+ 
+
+
+[data-theme='dark'] {
+    --color-bg: #111827;
+    --color-text: #f9fafb;
+    --color-border: #1f2937;
+    --color-surface: #1f2937;
+    --color-surface-hover: #374151;
+}
+
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+    padding: 0 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}

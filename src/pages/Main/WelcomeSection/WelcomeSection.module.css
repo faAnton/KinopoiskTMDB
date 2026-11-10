@@ -1,0 +1,56 @@
+.WelcomeSection {
+    position: relative;
+    
+
+    height: calc(100dvh - var(--header-height, 80px));
+    min-height: 500px;
+
+
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5% 0 8%;
+    /* Отступ слева как на макете */
+
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.WelcomeSection::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(to right, rgba(15, 15, 15, 0.9) 0%, rgba(15, 15, 15, 0.4) 50%, rgba(15, 15, 15, 0.1) 100%),
+        linear-gradient(to top, rgba(15, 15, 15, 1) 0%, rgba(15, 15, 15, 0) 40%);
+    z-index: 0;
+}
+
+.ContentWrapper {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  width: 100%;
+}
+
+.Title {
+    font-size: clamp(3rem, 5vw, 4.5rem);
+    /* Адаптивный размер шрифта */
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin: 0 0 16px 0;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.Subtitle {
+    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    font-weight: 400;
+    margin: 0 0 32px 0;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}

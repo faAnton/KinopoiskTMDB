@@ -1,0 +1,35 @@
+.genresContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+}
+.genreTag {
+    padding: 6px 12px;
+    border-radius: 20px;
+
+    border: 1px solid #eaeaea;
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    outline: none;
+
+}
+.genreTag:hover {
+    background-color: #eaeaea;
+    border-color: #d0d0d0;
+}
+
+.genreTag:focus-visible {
+    border-color: #00b386;
+    box-shadow: 0 0 0 2px rgba(0, 179, 134, 0.2);
+}
+
+.active {
+    background-color: #00b386;
+    color: #fff;
+    border-color: #00b386;
+}

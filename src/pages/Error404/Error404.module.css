@@ -1,0 +1,33 @@
+.ErrorSection {
+    flex: 1;
+    padding-top: var(--header-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    background-color: var(--color-bg);
+}
+
+.ErrorSection > h2 {
+    font-size: 50px;
+    color: var(--color-text);
+}
+
+.ErrorSection > p{
+    display: flex;
+    gap: 10px;
+    color: var(--color-text);
+}
+
+.ErrorSection > p > a {
+    border-bottom: 2px solid #00f1ff;
+    padding-bottom: 3px;
+    display: block;
+    transition: 0.2s linear;
+    color: var(--color-text);
+}
+
+.ErrorSection > p > a:hover {
+    transform: translateY(-5px);
+}

@@ -1,0 +1,12 @@
+.ratingHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-text);
+}
+
+.ratingValue {
+    font-size: 14px;
+    font-weight: 600;
+    color: #00b386;
+}
